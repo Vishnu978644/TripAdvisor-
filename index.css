@@ -1,3 +1,4 @@
+
 *{
     padding: 0%;
     margin: 0%;
@@ -603,70 +604,139 @@ margin-bottom: 90px;
 .head:hover{
     transform: scale(1.2);
 }
-@media screen and (max-width: 600px){
-    body{
-        font-size: 10px;
-        width: 500px;
-    }
-}
-    @media screen and (max-width: 600px){
-    .varient img{
-        flex-basis: 50%;
-        width: 100px;;
-    }
-}
- @media screen and (max-width: 600px){
-    .menu p{
-       display: none;
-    }
-}
- @media screen and (max-width: 600px){
-    .search-icons{
-       display: none;
-    }
-}
- @media screen and (max-width: 600px){
-    .searchbar{
-       display: none;
-    }
-}
-@media screen and (max-width: 600px){
-    .portion-1 img{
-       width: 300px;
-    }
-     .portion-1{
-        width: 330px;
-     }
-}
-@media screen and (max-width: 600px){
-    .topbord{
-       display: none;
-    }
-}
-@media screen and (max-width: 600px){
-    .rating {
-       display: none;
-    }
-}
-@media screen and (max-width: 600px){
-    .box {
-       display: none;
-    }
-}
-@media screen and (max-width: 600px){
-    .varient-1 img{
-       flex-basis: 40%;
-        width: 150px;
-    }
-}
-@media screen and (max-width: 600px){
-    .end p{
-       width: 50px;
-    }
-}
-@media screen and (max-width: 600px){
-    .sticky{
-       position: relative;
-       border: none;
-    }
+
+
+
+@media only screen and (max-width: 600px) {
+  .topbord, .sticky, .icons, .search-icons, .varient, .varient-1, .end {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+  }
+
+  .getapp {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .head {
+    font-size: 40px;
+    margin: 20px;
+  }
+
+  .search-icons {
+    margin-left: 0;
+    gap: 15px;
+    font-size: 18px;
+  }
+
+  .searchbar {
+    margin: 0 10px;
+    padding: 10px;
+  }
+
+  .searchbar input {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+  .searchbar button {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .portion-1 {
+    width: 95%;
+    margin: 20px auto;
+    height: auto;
+    flex-direction: column;
+    padding: 20px 0;
+  }
+
+  .portion-1 img, .book {
+    width: 90%;
+    position: static;
+    margin: 10px auto;
+    height: auto;
+  }
+
+  .book h1 {
+    font-size: 30px;
+  }
+
+  .rating, .box--1, .box--2, .box--3, .box--4,
+  .rating-one, .rating-two, .rating-three, .rating-four,
+  .pizza, .beach, .dive, .london,
+  .tag, .tag-1, .tag-2, .tag-3, .tag-4, .tag-5, .tag-6, .tag-7,
+  .symbol {
+    position: static;
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .footer, .symbol {
+    margin-top: 30px;
+    padding: 10px;
+  }
+
+  .end {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .end-1, .end-2, .end-3, .end-4 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .symbol {
+    position: relative;
+    top: auto;
+    left: auto;
+  }
+  .sticky{
+    position: relative;
+  }
+  .box{
+    display: none;
+  }
+  .tag,.tag-1,.tag-2,.tag-3,.tag-4,.tag-5,.tag-6,.tag-7{
+    display: none;
+  }
+  .heart{
+    display: none;
+  }
+  iframe{
+    display: none;
+  }
+  .varient-1 img{
+   display: none;
+  }
+  .varient-1{
+display: none;
+  }
+  .para{
+    display: none;
+  }
+  .find-1{
+    display: none;
+  }
+  .end,.end-1,.end-2,.end-3,.end-4,.symbol{
+    background-color: #000;
+    color: white;
+    height: 500px;
+    
+ }
+ .culture,.water,{
+    display: none;
+ }
+ .symbol,.end-1,.end-4{
+    display: none;
+ }
+
+ .culture-1,.water-1{
+   display: none;
+ }
+ 
 }
